@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điền thông tin khảo sát</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>THÔNG TIN KHẢO SÁT</h2>
+            <form>
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" placeholder="Nhập họ và tên..." required>
+                <label for="dob">Ngày tháng năm sinh:</label>
+                <input type="date" id="dob" required>
+                <label for="id-card">Căn cước công dân:</label>
+                <input type="text" id="id-card" placeholder="Nhập CCCD..." required>
+                <label for="address">Địa chỉ thường trú:</label>
+                <input type="text" id="address" placeholder="Nhập địa chỉ thường trú..." required>
+                <button type="button" onclick="validateForm()">Bắt đầu khảo sát</button>
+            </form>
+        </div>
+    </div>
+    <script src="Login.js"></script>
+</body>
+</html>
